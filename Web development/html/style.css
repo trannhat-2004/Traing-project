@@ -1,0 +1,36 @@
+.form_css{
+    background-color: antiquewhite;
+    width: 390px;
+    height: 300px;
+    border:solid;
+    margin: auto;
+}
+.label_css{
+   display :inline-block;
+   width: 150px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+input {
+    width: 200px;
+    height: 20px;
+}
+#button_1 {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    
+}
+.div_css{
+    text-align: center;
+}
+#button_2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+}
+#div_2{
+    text-align: right;
+}

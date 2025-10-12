@@ -329,30 +329,45 @@ count = 0
 # cat = an_object(main2.Cat())
 # print(cat)
 #parent class
-class Animal:
-  def __init__(self, name):
-    self.name = name
+# class Animal:
+#   def __init__(self, name):
+#     self.name = name
   
-  def move(self):
-    print("Moving")
+#   def move(self):
+#     print("Moving")
 
-#child class
-class Dog(Animal):
-  def __init__(self, breed, age):
-    # Initialize attributes of the superclass
-    # Additional attributes specific to Dog
+# #child class
+# class Dog(Animal):
+#   def __init__(self, breed, age):
+#     # Initialize attributes of the superclass
+#     # Additional attributes specific to Dog
     
-    self.breed = breed
-    self.age = age
+#     self.breed = breed
+#     self.age = age
 
-  def bark(self):
-    print("Woof!")
+#   def bark(self):
+#     print("Woof!")
 
 
-my_dog = Dog( "Bulldog", 5)
-#inherited attribute
-print(my_dog.name)
+# my_dog = Dog( "Bulldog", 5)
+# #inherited attribute
+# print(my_dog.name)
 
-#Additional attributes
-print(my_dog.breed)
-print(my_dog.age)
+# #Additional attributes
+# print(my_dog.breed)
+# print(my_dog.age)
+a = 1000021
+b = str(a)
+list_1 = []
+for i in range(len(b)):
+    list_1.append (b[i])
+list_1.reverse()
+for i in range(len(b)):
+    if b[i] != list_1[i]:
+        print("false")
+    else:
+        print("true")
+
+
+    
+

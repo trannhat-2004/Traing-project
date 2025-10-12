@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- thu tu uu tien inline -> IDs -> Class -> Element -->
+     <div style = "background-color: aquamarine;">
+    <header>
+        <nav>
+            <a href="https://www.sololearn.com/en/learn/courses/web-development?location=2">Sololearn</a>
+            <br>
+            <a href = "https://www.google.com/" >This is google</a>
+        </nav>
+    </header>
+    </div>
+    <nav>
+        <ul style = "border: 1px solid rgba(212, 21, 21, 0.841); padding: 20px; margin-top: 0px;">
+            Liên kết các trang web
+            <li> 
+                <a href="English.html">English</a>
+            </li>
+            <li>
+                <a href="Mos.html">Mos</a>
+            </li>
+            <li>
+                <a href="OpenCv.html">OpenCV</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article >
+            <h1 style = "text-align: center;">Nhật English and MOS</h1>
+            <section >
+                <div style = "margin: auto; width: 390px; border-top: solid; background-color: yellow;border-right: solid; border-left: solid;">
+                    <p style = "font-size: large; margin-top: 5px; margin-bottom: 0px">Create your Account</p>    
+                </div>
+                <form class = "form_css">
+                   
+                    <label for = "name" class = "label_css">Name</label>
+                    <input type="text" id = "name" name = "nameinput" placeholder="please enter your name">
+                    <br>
+                    <label for = "school" class = "label_css">School</label>
+                    <input  type = "text" id = "school" name = "schoolinput" placeholder="please enter your shool">
+                    <br>
+                    <label for = "username" class = "label_css">UserName</label>
+                    <input type="text" id = "username" name = "Username" placeholder="Please enter your UserName">
+                    <br>
+                    <label for = "password" class = "label_css">Password</label>
+                    <input type="password" id = "password" name = "Password">
+                    <br>
+                    <label for  = "againpassword" class = "label_css">Password Again</label>
+                    <input type="password" name="password again" id="againpassword">
+                    <br>
+                    <div class = "div_css">
+                        <button type="submit" id = "button_1" onclick="alert('Success')">Sign up</button>
+                    </div>
+                    <br>
+                    
+                    <div id = "div_2">
+                        <label style = "margin-right: 10px;">Aready have account</label>
+                        <button onclick="alert('Bạn đã log in')" id = "button_2">
+                            Login
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
