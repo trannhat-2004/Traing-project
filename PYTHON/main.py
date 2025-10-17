@@ -357,16 +357,16 @@ count = 0
 # print(my_dog.breed)
 # print(my_dog.age)
 a = 1000021
-b = str(a)
-list_1 = []
-for i in range(len(b)):
-    list_1.append (b[i])
-list_1.reverse()
-for i in range(len(b)):
-    if b[i] != list_1[i]:
-        print("false")
-    else:
-        print("true")
+# b = str(a)
+# list_1 = []
+# for i in range(len(b)):
+#     list_1.append (b[i])
+# list_1.reverse()
+# for i in range(len(b)):
+#     if b[i] != list_1[i]:
+#         print("false")
+#     else:
+#         print("true")
 
 
     
